@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="app">
       <div>
-        <Link to="">Home</Link> | <strong>About</strong>
+        <Link to="home">Home</Link> | <strong>About</strong> | <Link to="cars">Cars</Link>
       </div>
       <div>
         This is a React Router + Redux boilerplate from Le Wagon.
